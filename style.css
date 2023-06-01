@@ -1,0 +1,156 @@
+h1 {
+
+	background: lightgreen;
+	border-radius: 20px;
+	border: 20px black;
+	font-family: sans-serif;
+
+}
+
+header {
+
+
+}
+
+#button-menu {
+
+	text-align: right;
+	line-height: 1px;
+	
+
+}
+
+.srodek {
+
+	line-height: 0px;
+
+}
+
+.menu1 {
+
+	font-size: 25px;
+	white-space: pre-wrap;
+
+	position: absolute;
+
+		top: 0%;
+		right: 0%;
+		bottom: 0;
+		left: 0%;
+
+}
+
+
+.menu2 {
+
+	font-size: 25px;
+
+	white-space: pre-wrap;
+	position: absolute;
+
+		top: 0%;
+		right: 0;
+		bottom: 0;
+		left: 8%;
+
+}
+
+
+.menu3 {
+
+	font-size: 25px;
+	white-space: pre-wrap;	
+	position: absolute;
+
+		top: 0%;
+		right: 0;
+		bottom: 0;
+		left: 20%;
+
+}
+
+
+
+#header-main {
+
+	text-align: left;
+	line-height: 5px;
+	font-size: 30px;
+	background-color: lightgreen;
+	padding: 20px;
+	border-radius: 40px;
+	text-shadow: 10px;
+
+}
+
+
+
+
+.buttonik {
+
+	max-width: 500px;
+	width: 80%;
+	background-color: lightgreen;
+	text-align: center;
+	border-radius: 20px;
+	margin: 20px auto;
+	padding: 20px;
+	box-shadow: 5px 5px 5px darkgreen;
+	border: 5px double white;
+}
+
+h2 {
+
+	text-align: center;
+	background-color: green;
+	border-radius: 20px;
+
+}
+
+.shadow {
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px darkgreen;
+}
+
+.ramka {
+    max-width: 650px;
+    width: 80%;
+    margin: 20px auto;
+    text-align: justify;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px darkgreen;
+}
+
+
+body {
+   	background-image: url("images/1.jpg");
+   	background-color: #cccccc;
+    font-family: sans-serif;
+}
+
+
+button {
+
+	background-color: whitesmoke;
+	box-shadow: 5px 5px 5px darkgreen;
+	padding: 10px;
+	border-radius: 20px;
+	border: 5px dotted black;
+
+
+}
+
+
+
+footer {
+
+	text-align: center;
+	padding: 20px;
+	margin: 20px;
+	background-color: lightgreen;
+	border-radius: 40px;
+	border: 3px solid white;
+	box-shadow: 5px 5px 5px darkgreen;
+}
