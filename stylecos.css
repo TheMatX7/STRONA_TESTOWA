@@ -1,0 +1,221 @@
+   /*GENEROWANIE PRZEZ AI*/
+   body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+    }
+
+    .header {
+      background-color: #f2f2f2;
+      padding: 20px;
+      /*MOJE MAZY*/
+      background-image: url(images/7.jpg);
+      background-size: cover;
+      color: white;
+      font-size: 20px;
+    }
+
+    .header ul {
+    	list-style-type: none; /*znikanie kropek*/
+    	padding-left: 0;
+    	padding: 10px;
+    }
+
+    .header-kropki {
+    	background-color: white;
+    	color: black;
+    	margin-right: 85%;
+    	margin-left: 0%;
+    	padding: 5px;
+    	border-radius: 30px;
+    	border: 5px solid black;
+    	transition: background-color 0.6s ease, border-color 0.6s ease, color 0.6s ease;
+    }	
+
+    .header-kropki:hover {
+    	color: white;
+    	background-color: lightblue;
+    	border: 5px solid white;
+    }
+
+    .header a {
+    	color: black;
+    }
+
+    .header a:hover {
+    	color: red;
+    }
+
+
+    .header ul li::before { /*pojawianie kropek*/
+    	content: '';
+    	display: inline-block;
+    	width: 10px;
+    	height: 10px;
+    	background-color: black; /*kolor tla dla kropki*/
+    	margin: 5px;
+    	border-radius: 50%;
+    	margin-right: 5px;
+    }
+
+	.name {
+  		position: absolute;
+  		right: 16px;
+  		top: 40px;
+  		color: black;
+  		text-align: center;
+  		font-size: 18px;
+  		border: 10px solid white;
+  		background-color: white;
+  		background-size: cover;
+  		border-radius: 10px;
+  		padding: 5px;
+	}	
+
+	/*MOJE MAZY FB*/
+
+	.facebook {
+		text-align: center;
+	}
+	.facebook button {
+		position: absolute;
+		top: 40px;
+		background-color: white;
+		text-align: center;
+		border: 5px solid white;
+		border-radius: 10px;
+		transition: border-color 0.3s ease;
+		transition: background-color 0.3s ease;
+
+	}
+
+	.facebook:hover button {
+		background-color: darkblue;
+		border-color: lightblue;
+		color: white;
+
+	}
+
+    .content {
+      flex: 1;
+      display: flex;
+    }
+
+    .sidebar {
+      background-color: #f2f2f2;
+      width: 200px;
+      padding: 20px;
+      /*moje*/
+      background-image: url(images/6.jpg);
+      background-size: cover;
+      color: white;
+      border-right: 5px solid white;
+      border-top: 5px solid white;
+    }
+
+    .sidebar ul {
+
+    	padding: 10px;
+
+    }
+
+    .sidebar  a {
+    	background-color: white;
+    	display: block;
+    	padding: 10px;
+    	margin: 10px;
+    	font-size: 15px;
+    	border-radius: 40px;
+    	color: black;
+
+    }
+
+    .sidebar a {
+    	color: black;
+    	transition: background-color 0.3s ease;
+    	transition: border 0.3s ease;
+    }
+
+    .sidebar a:hover {
+
+    	color: white;
+    	border: 5px solid white;
+    	background-color: black;
+    }
+
+    .main {
+      flex: 1;
+      padding: 20px;
+      /*MOJE PISANIE*/
+      background-image: url(images/5.jpg);
+      background-size: cover;
+      color: white;
+      border-top: 5px solid white;
+    }
+
+    h1 {
+    	background-color: white;
+    	color: black;
+    	text-align: center;
+    	border-radius: 40px;
+    }
+
+    h3 {
+    	background-color: white;
+    	color: black;
+    	text-align: center;
+    	border-radius: 40px;
+    }
+
+    .main-text {
+    	background-color: white;
+    	color: black;
+    	border-radius: 30px;
+    	padding: 5px;
+    	margin: 10px;
+
+    }
+
+    .main-jpg {
+    	display: flex;
+    	border-radius: 10px;
+    	border: 5px solid white;
+    	margin: 30px;
+    	justify-content: center;
+    	align-items: center;
+    	overflow: hidden;
+    }
+
+  	.main-jpg img {
+  		width: 100%;
+  		height: 100%;
+  		object-fit: cover;
+	}
+
+
+
+   
+    .footer {
+      background-color: #f2f2f2;
+      padding: 20px;
+      /*MOJE MAZY*/
+      text-align: center;
+      background-image: url(images/8.jpg);
+      background-size: cover;
+      border-top: 5px solid white;
+      color: white;
+    }
+
+    .footer h3 {
+    	border-radius: 40px;
+    	background-color: white;
+    	color: black;
+    	padding: 5px;
+    	margin: 10px;
+
+    }
